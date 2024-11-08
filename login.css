@@ -1,0 +1,39 @@
+
+.navigation {
+    display: flex;
+    background: rgb(127, 0, 255);
+    width: 100vw;
+    height: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation h1 {
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+    margin: 10px;
+}
+
+.navigation li {
+    display: inline-block;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px;
+    font-size: xx-large;
+}
+
+.navigation li:hover {
+    background: rgb(255, 189, 47);
+}
+
+img {
+    max-width: 200px;
+    max-height: 300px;
+    margin: 20px 20px;
+}
+
+.footer {
+    display: flex;
+    width: 100vw;
+}

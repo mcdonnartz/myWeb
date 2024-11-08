@@ -1,0 +1,106 @@
+
+body {
+    background: url(MObSdEwj_4x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+form{
+    border-style: solid;
+    border-color: rgb(255, 182, 254);
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 10px rgba(255, 182, 254, 0.6) ;
+    background: rgba(127, 0, 255, 0.3);
+
+}
+input{
+    background: transparent;
+    border-color: rgb(44, 199, 255);
+    border-style: solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    text-align: center;
+}
+
+.tmails input {
+    display: block;
+    width: 450px;
+    height: 30px;
+}
+
+.tmails input:hover {
+    background: rgb(255, 255, 255);
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(255, 182, 254);
+    border: solid;
+    border-color: rgb(255, 182, 254);
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(44, 199, 255);
+}
+::placeholder{
+    font-size: large;
+    text-align: center;
+    color: rgb(255, 182, 254);
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    border-radius: 100px;
+    font-size: larger;
+    border-color: blueviolet;
+    border-style: solid;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: larger;
+    text-align: center;
+    margin-top: 20px;
+}
+a{
+    color: rgb(255, 189, 47);
+    font-size: larger;
+    font-family: sans-serif;
+}
+label{
+    color: rgb(44, 199, 255);
+    font-family: sans-serif;
+    font-size: larger;
+}
+h2{
+    color: rgb(255, 189, 47);
+    text-align: center;
+}
+.left{
+    margin: 0 auto;
+}
+#check{
+   size: 0cap;
+}
+fieldset{
+    border-style: solid;
+    border-color: rgb(255, 182, 254);
+    border-radius: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

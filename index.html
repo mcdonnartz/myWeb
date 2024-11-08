@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms in html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <main>
+    <form action="" method="post">
+        <h1>Sign up</h1>
+        <div class="tmails">
+        <input type="text" id="fname" placeholder="first name" minlength="3" maxlength="15" required class="big">
+        <input type="text" id="mname" placeholder="middle name" minlength="3" maxlength="15" class="big">
+        <input type="text" id="lname" placeholder="last name" minlength="3" maxlength="15" required>
+        <hr>
+        <label>Username :<input type="text" minlength="5" maxlength="10" placeholder="e.g mcdonnartz" required></label>
+        <label>password :<input type="password" minlength="9" maxlength="16" placeholder="include symbols and numbers to make it stronger" required></label>
+        <input type="password" placeholder="confirm your password" minlength="9" maxlength="16" required>
+
+        <label>Email<input type="email" placeholder="xxxxxxxxxx@xxxx.com" required></label>
+        
+
+        <label>Date Of Birth<input type="date" required></label><br>
+        </div>
+
+        <h2>Gender</h2>
+        <label>Male<input type="radio" name="title" checked></label><br>
+        <label>Female<input type="radio" name="title"></label><br>
+        <label>Other<input type="radio" name="title"></label><br>
+        <hr>
+        <label><input type="checkbox" checked>Remember me</label>
+        <button type="submit">Sign up</button>
+        <p>Already have an account?<a href="signin.html">Login</a></p>
+    </form>
+    </main>
+    </div>
+
+</body>
+</html>
